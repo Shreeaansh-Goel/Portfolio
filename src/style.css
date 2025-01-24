@@ -14,12 +14,28 @@ html {
     --imp-text-color: #c770f0;
   }
   
+  body {
+    background-color: rgb(19, 18, 32) !important;
+    color: white; /* Optional for text contrast */
+  }
   .purple {
     color: var(--imp-text-color) !important;
   }
   
   button:focus {
     box-shadow: none !important;
+  }
+  
+  .tech-icons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon-caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #6c757d; /* Light gray color */
+    font-weight: 500;
   }
   
   /* --------- */
@@ -253,30 +269,37 @@ html {
   .home-header {
     padding-top: 80px !important;
   }
-  
+  .back{
+    background-image: var(--section-background-color) !important;
+  }
   .home-section {
     position: relative;
-    z-index: -1;
+    /* z-index: -1;*/
     background-image: var(--image-gradient), url(./assets/home-bg.jpg);
     background-position: top center;
     background-repeat: no-repeat;
+    background-size: cover; 
+  /* width: 100%; 
+  height: 100vh; */ 
     padding-bottom: 30px !important;
-    padding-top: 30px !important;
+    padding-top: 30px !important; 
   }
   
   .home-content {
     padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    /* color: whitesmoke; */
     text-align: left;
   }
   
   .heading {
     font-size: 2.4em !important;
+    color: #f6f5f8;
     padding-left: 50px !important;
   }
   
   .heading-name {
     font-size: 2.5em !important;
+    color: #f6f5f8;
     padding-left: 45px !important;
   }
   
@@ -383,9 +406,9 @@ html {
   }
   
   .home-social-icons:hover {
-    color: #87209e;
-    box-shadow: 0 0 5px #87209e;
-    text-shadow: 0 0 2px #87209e;
+    color: #f2f0f3;
+    box-shadow: 0 0 5px #f2f1f3;
+    text-shadow: 0 0 2px #ece9ed;
   }
   
   .social-icons {

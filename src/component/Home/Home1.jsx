@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "D:/portfolio/Portfolio/src/assets/avatar.png";
+import myImg from "D:/portfolio/Portfolio/src/assets/p2.jpg";
 import Tilt from "react-parallax-tilt";
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillGithub
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,12 +17,12 @@ function Home1() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+            I developed a strong passion for programming and have consistently honed my skills over time.
+            <br />
+
+I am proficient in programming languages such as
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple">C++,Python ,Machine Learning , Deep Learning, JavaScript, MERN Stack Web Development and Django</b>
               </i>
               <br />
               <br />
@@ -33,7 +31,7 @@ function Home1() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Artificial Intelligence.
                 </b>
               </i>
               <br />

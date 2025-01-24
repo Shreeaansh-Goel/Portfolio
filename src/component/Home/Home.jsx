@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../assets/study-home.jpg";
+import homeLogo from "../../assets/p1.jpg";
  // Use relative path
  import Particle from "../Particle.jsx";
  // Use relative path
@@ -9,7 +9,7 @@ import Text from "./Text";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container  className="home-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
@@ -40,9 +40,10 @@ function Home() {
               />
             </Col>
           </Row>
+          <Home1 />
         </Container>
+
       </Container>
-      <Home1 />
     </section>
   );
 }

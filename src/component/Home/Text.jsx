@@ -7,9 +7,12 @@ function Text() {
       options={{
         strings: [
           "Software Developer",
-          "Freelancer",
+          "Machine Learning Developer",
+          "Deep Learning Developer",
+          "Competitive Programmer",
+          "Generative AI ENthusiast",
+          "Data Structures and Algorithm",
           "MERN Stack Developer",
-          "Open Source Contributor",
         ],
         autoStart: true,
         loop: true,

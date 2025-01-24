@@ -9,7 +9,7 @@ function ProjectCards(props) {
     <Card className="project-card-view">
       <Card.Body>
         <Card.Title style={{ textAlign: "center", fontSize: "24px", fontWeight: "bold" }}>
-          Projects
+          
         </Card.Title>
 
         {/* Card Image */}
